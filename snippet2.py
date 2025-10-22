@@ -1,6 +1,7 @@
-# snippet2.py
-def findTotal(a):
+def find_total(a):
     for i in a:
         print(sum(i) * 2)
 
-findTotal([[1, 2, 3], [4, 5, 6]])
+# Example test data
+myList = [[1, 2, 3], [4, 5, 6]]
+find_total(myList)
